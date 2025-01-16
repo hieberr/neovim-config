@@ -1,2 +1,2 @@
-require("rhieber.remap")
+require("rhieber.keymap")
 require("rhieber.set")
