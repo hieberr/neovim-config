@@ -1,5 +1,7 @@
 return {
 	-- ======= Telescope =========
+	-- Note I have lazyvim using fzf for file searching. But telescope has a lot more integration
+	-- with other plugins. So, this could be removed but I'm leaving it for now.
 	{
 		"nvim-telescope/telescope.nvim",
 		tag = "0.1.8",

@@ -13,6 +13,7 @@ My ~/.config/nvim directory
 - If node isn't installed install it (for tree sitter to work properly. Otherwise you will get errors that node isn't installed whenever it tries to build a language that requires it)
 - Install ripgrep for grep search of files. ```brew install ripgrep```
 - Install fd ```brew install fd```. Not required but used by telescope for better file searching.
+- Install luarocks `brew install luarocks`
 - Setup python. Not sure if this is needed but otherwise neovim has a warning.
    ```
     brew install pyenv
