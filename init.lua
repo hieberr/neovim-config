@@ -1,6 +1,7 @@
--- disable netrw at the very start of your init.lua
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
+-- disable netrw at the very start of your init.lua. Needed to do this for nvim remove
+-- but now I'm neotree (comes with LazyVim). Not sure if this is needed for that.
+--vim.g.loaded_netrw = 1
+--vim.g.loaded_netrwPlugin = 1
 
 -- Point neovim to the python virtualenv to remove python provider warnings.
 local home = os.getenv("HOME")

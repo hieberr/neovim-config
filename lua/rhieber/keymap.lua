@@ -14,10 +14,9 @@ keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 --keymap.set("n", "<leader>se", "<C-w>=", { desc = "Make splits equal size" })
 --keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" })
 
--- Tabs
-keymap.set("n", "<leader>to", "<cmd>tabnew<CR>", { desc = "New tab" })
-keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Close current tab" })
-keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Next tab" })
-keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Previous tab" })
-keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab"})
-
+-- Tabs default keys for this are <leader>tab d,t,l, [,], etc.
+--keymap.set("n", "<leader>to", "<cmd>tabnew<CR>", { desc = "New tab" })
+--keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Close current tab" })
+--keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Next tab" })
+--keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Previous tab" })
+--keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab"})
