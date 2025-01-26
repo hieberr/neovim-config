@@ -9,4 +9,3 @@ local home = os.getenv("HOME")
 vim.g.python3_host_prog = home .. "/.virtualenvs/neovim/bin/python3"
 
 require("config.lazy")
-require("rhieber")
